@@ -6,17 +6,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="hero">
+    <div class="header">
+        <div class="header__logo">
+            <img src="./assets/logo.svg" alt="Open Circle logo">
+        </div>
+        <a class="header__button">
+            <img src="./assets/menu.svg" alt="menu button">
+        </a>
+    </div>
+
+    <section id="hero">
         <div class="hero__title">
             <h1>Soluções digitais sob medida</h1>
         </div>
-        <a class="hero__button">
+        <a href="#" class="hero__button button-lg">
             <span>Contato</span>
             <img src="./assets/arrow.svg" alt="arrow button">
         </a>
-        <div class="hero__image">
-            <img src="./assets/hero.png" alt="abstract orange and blue waves">
+        <img class="hero__image" alt="abstract orange and blue waves">
+    </section>
+
+    <section id="about">
+        <div class="about__content">
+            <div class="about__title">Transformamos negócios de ponta a ponta</div>
+            <div class="about__text">
+                Do planejamento à execução, transformamos negócios, otimizando resultados, aprimorando experiências e impulsionando um
+                crescimento com integridade e consistência.
+            </div>
+            <a href="#" class="about__button button-lg">
+                <span>Portfólio</span>
+                <img src="./assets/arrow.svg" alt="arrow button">
+            </a>
         </div>
+        <img src="./assets/fullscreen-arrow.svg" class="about__arrow" alt="full page sized arrow"></img>
     </section>
 </body>
 </html>
